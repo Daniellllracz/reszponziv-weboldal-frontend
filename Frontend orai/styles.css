@@ -1,0 +1,174 @@
+body, h1, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+}
+
+.hero {
+    background-image: url(img/background.jpg);
+    background-size:cover ;
+
+
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.service {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.service .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.portfolio-item {
+    flex: 1 1 calc(50% - 40px);
+    max-width: calc(50% - 40px);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 60%;
+    display: block;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer div {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .portfolio-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
+li{
+    padding-top: 5px;
+}
+.subscribe{
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
